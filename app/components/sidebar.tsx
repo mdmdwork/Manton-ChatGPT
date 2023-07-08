@@ -117,10 +117,13 @@ export function SideBar(props: { className?: string }) {
     >
       <div className={styles["sidebar-header"]} data-tauri-drag-region>
         <div className={styles["sidebar-title"]} data-tauri-drag-region>
-          ChatGPT Next
+          Manton ChatGPT
         </div>
         <div className={styles["sidebar-sub-title"]}>
-          Build your own AI assistant.
+        ◈讨论和反馈请加QQ群：304986416
+        </div>
+        <div className={styles["sidebar-sub-title"]}>
+        ◈免费使用有120次请求/IP/小时限制！有需要可联系群管理员购买无限制KEY~~
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
