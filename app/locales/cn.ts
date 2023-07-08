@@ -217,7 +217,7 @@ const cn = {
     },
     Endpoint: {
       Title: "接口地址",
-      SubTitle: "除默认地址外，必须包含 http(s)://",
+      SubTitle: "默认接口填/api/openai/，自定义接口必须包含 http(s)://",
     },
     Model: "模型 (model)",
     Temperature: {
