@@ -40,12 +40,12 @@ export const DEFAULT_CONFIG = {
     model: "gpt-3.5-turbo" as ModelType,
     temperature: 0.5,
     top_p: 1,
-    max_tokens: 2000,
+    max_tokens: 5000,
     presence_penalty: 0,
     frequency_penalty: 0,
     sendMemory: true,
-    historyMessageCount: 4,
-    compressMessageLengthThreshold: 1000,
+    historyMessageCount: 24,
+    compressMessageLengthThreshold: 3000,
     template: DEFAULT_INPUT_TEMPLATE,
   },
 };
@@ -143,8 +143,8 @@ export const useAppConfig = create<ChatConfigStore>()(
 
         const state = persistedState as ChatConfig;
         state.modelConfig.sendMemory = true;
-        state.modelConfig.historyMessageCount = 4;
-        state.modelConfig.compressMessageLengthThreshold = 1000;
+        state.modelConfig.historyMessageCount = 24;
+        state.modelConfig.compressMessageLengthThreshold = 3000;
         state.modelConfig.frequency_penalty = 0;
         state.modelConfig.top_p = 1;
         state.modelConfig.template = DEFAULT_INPUT_TEMPLATE;
