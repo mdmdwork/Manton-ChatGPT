@@ -120,10 +120,10 @@ export function SideBar(props: { className?: string }) {
           Manton ChatGPT
         </div>
         <div className={styles["sidebar-sub-title"]}>
-        ◈讨论和反馈请加QQ群：304986416。
+        ☆讨论和反馈请加QQ群：304986416
         </div>
         <div className={styles["sidebar-sub-title"]}>
-        ◈迫于无奈，本站免费机制设为所有用户总提问不超过120次/小时限制，超过限制会显示“too many requests”，如有更多需求请联系群管理员购买无限制KEY。
+        ☆迫于无奈，所有免费用户加一起的总提问次数上限为120次/小时，超过一小时上限会显示“too many requests”，如有更多需求请联系群管理员购买无限制KEY
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
