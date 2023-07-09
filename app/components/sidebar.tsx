@@ -123,7 +123,7 @@ export function SideBar(props: { className?: string }) {
         ◈讨论和反馈请加QQ群：304986416。
         </div>
         <div className={styles["sidebar-sub-title"]}>
-        ◈本站将努力更新可用的免费接口，目前免费使用有120次请求/IP/小时限制，如有更多需求请联系群管理员购买无限制KEY。
+        ◈迫于无奈，本站免费机制设为所有用户总提问不超过120次/小时限制，超过限制会显示“too many requests”，如有更多需求请联系群管理员购买无限制KEY。
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
